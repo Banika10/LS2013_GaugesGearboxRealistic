@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<config>
+    <gearboxMode>manual</gearboxMode>
+    <maxGear>4</maxGear>
+    <gearboxFinalRatio>0.5</gearboxFinalRatio>
+</config>

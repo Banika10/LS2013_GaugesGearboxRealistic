@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<input>
+	<startEngine key="KEY_return" button="PS2_PAD_SELECT" />
+	<upGear key="KEY_equals" button="PS2_PAD_R1" />
+	<downGear key="KEY_minus" button="PS2_PAD_L1" />
+	<gearN key="KEY_lshift KEY_n" button="" />
+	<gearR key="KEY_lshift KEY_r" button="" />	
+	<gear1 key="KEY_lshift KEY_KP_1" button="" />
+	<gear2 key="KEY_lshift KEY_KP_2" button="" />
+	<gear3 key="KEY_lshift KEY_KP_3" button="" />
+	<gear4 key="KEY_lshift KEY_KP_4" button="" />
+	<gear5 key="KEY_lshift KEY_KP_5" button="" />
+	<gear6 key="KEY_lshift KEY_KP_6" button="" />
+	<gear7 key="KEY_lshift KEY_KP_7" button="" />
+	<gear8 key="KEY_lshift KEY_KP_8" button="" />
+	<gear9 key="KEY_lshift KEY_KP_9" button="" />
+	<changeGearboxMode key="KEY_lctrl KEY_y" button="PS2_PAD_R2" />
+	<changeDriveMode key="KEY_lctrl KEY_u" button="PS2_PAD_L2" />
+</input>
