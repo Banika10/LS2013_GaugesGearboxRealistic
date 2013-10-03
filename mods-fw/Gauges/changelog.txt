@@ -1,0 +1,10 @@
+2013-06-02 version 1.10:
+
+	* pojazdy rozpêdzaj¹ siê szybciej
+	* usuniêto bug biegu wstecznego podczas jazdy pod górê
+	* dodano dŸwiêki zmiany biegów
+	* rozmiar kó³ ma wp³yw na przyspieszenie
+	* zmieniono klawisze zmiany biegów na ctrl+numer biegu
+	* dodano now¹ wersje manualIgnition
+	* ci¹gnik jedzie wolniej pod wp³ywem ciê¿aru przyczepy
+	* przyczepa opada pod wp³ywem ciê¿aru ³adunku
