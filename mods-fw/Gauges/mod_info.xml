@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <info>
-	<version>1.10</version>
+	<version>1.2</version>
 	<author>Miko</author>
-	<website>www.swiat-ls.pl</website>
+	<website>www.swiat-ls.pl | github.com/mikoweb/LS2013_GaugesGearboxRealistic</website>
 	<email>rafal@mikoweb.pl</email>
-	<copyright>Copyright © 2012-2013 Miko.</copyright>
+	<copyright>Copyright © 2012-2013 Rafał Mikołajun.</copyright>
 	<license>GNU General Public License version 3 or later; see LICENSE.txt</license>
     <description>Gauges, Gearbox &amp; Realistic</description>
 	<requiredCore>1.42</requiredCore>

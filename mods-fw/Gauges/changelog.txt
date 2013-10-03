@@ -1,4 +1,4 @@
-2013-06-02 version 1.10:
+2013-06-02 version 1.1:
 
 	* pojazdy rozpêdzaj¹ siê szybciej
 	* usuniêto bug biegu wstecznego podczas jazdy pod górê
@@ -8,3 +8,13 @@
 	* dodano now¹ wersje manualIgnition
 	* ci¹gnik jedzie wolniej pod wp³ywem ciê¿aru przyczepy
 	* przyczepa opada pod wp³ywem ciê¿aru ³adunku
+	
+2013-10-03 version 1.2:
+
+	* silnik gwa³towniej zwiêksza obroty w trakcie oderwania kó³ od pod³o¿a
+	* gdy ko³a opadn¹ z powrotem na ziemiê silnik zwalnia
+	* zwiêkszono realizm jazdy pod górê i z góry
+	* drobne poprawki w fizyce przyczepy w stosunku do poprzedniej wersji
+	* ci¹gnik z za³adowan¹ przyczep¹ ma zdecydowanie trudniej pod górê
+	* poprawiono biegi terenowe - od teraz na terenowych ci¹gnik lepiej "dajê radê" pod górê
+	* drobne poprawki w zachowaniu biegów - gdy ci¹gnik nie daje rady z podjazdem mo¿na przyspieszyæ redukuj¹c bieg
