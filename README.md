@@ -5,7 +5,7 @@
 * manual and auto gearbox
 * new more realistic physics
 
-![gg&r ilustration](https://raw.github.com/mikoweb/LS2013_rpmLimiter/master/rpm-limiter.jpg)
+![gg&r ilustration](https://raw.github.com/mikoweb/LS2013_GaugesGearboxRealistic/master/gauges-and-gearbox.jpg)
 
 ## Required Mods
 
