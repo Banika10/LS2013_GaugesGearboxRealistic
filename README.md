@@ -28,3 +28,7 @@
 
 **Author**: [Rafał Mikołajun](http://www.swiat-ls.pl/spolecznosc/3-miko/profile.html)
 
+
+
+[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/1a1a9ec7f8fd841dbd35aaa7d32807a2 "githalytics.com")](http://githalytics.com/mikoweb/LS2013_GaugesGearboxRealistic)
+
