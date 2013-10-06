@@ -18,8 +18,6 @@
 * more realistic driving uphill
 * accelerate motor speed during jump
 
-[Videos](http://www.youtube.com/watch?v=K_NVHesPwRo&list=PLee3_tDX9Kpn6lieXnbTQndrt5rTb6HtM&index=1)
-
 
 ## Required Mods
 
@@ -33,7 +31,8 @@
 
 ## About
 
-**Project Page**: http://www.swiat-ls.pl/download/mody-by-swiat-ls/item/2133-gauges-and-gearbox.html
+* [Videos](http://www.youtube.com/watch?v=K_NVHesPwRo&list=PLee3_tDX9Kpn6lieXnbTQndrt5rTb6HtM&index=1)
+* [Project Page](http://www.swiat-ls.pl/download/mody-by-swiat-ls/item/2133-gauges-and-gearbox.html)
 
 
 ## License
