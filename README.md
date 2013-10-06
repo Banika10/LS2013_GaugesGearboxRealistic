@@ -7,6 +7,17 @@
 * manual or automatic gearbox
 * driving physics minor improvements
 
+**Features:**
+* all vehicles support
+* 9 gears maximum 
+* road / field gears mode
+* neutral gear
+* reverse gear
+* wheel size affects the acceleration
+* trailer weight affects the speed of vehicle
+* more realistic driving uphill
+* accelerate motor speed during jump
+
 ## Required Mods
 
 1. [Framework By Miko](https://github.com/mikoweb/LS2013_FrameworkByMiko)
