@@ -18,6 +18,9 @@
 * more realistic driving uphill
 * accelerate motor speed during jump
 
+**Videos**
+* http://www.youtube.com/playlist?list=PLee3_tDX9Kpn6lieXnbTQndrt5rTb6HtM
+
 ## Required Mods
 
 1. [Framework By Miko](https://github.com/mikoweb/LS2013_FrameworkByMiko)
