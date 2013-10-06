@@ -1,11 +1,11 @@
 # Gauges Gearbox & Realistic for FS 2013
 
-**Mod adds:**
-* displays hud
-* manual and auto gearbox
-* new more realistic physics
-
 ![gg&r ilustration](https://raw.github.com/mikoweb/LS2013_GaugesGearboxRealistic/master/gauges-and-gearbox.jpg)
+
+**Modification included::**
+* new displays
+* manual or automatic gearbox
+* driving physics minor improvements
 
 ## Required Mods
 
