@@ -2,7 +2,7 @@
 
 ![gg&r ilustration](https://raw.github.com/mikoweb/LS2013_GaugesGearboxRealistic/master/gauges-and-gearbox.jpg)
 
-**Modification included::**
+**Modification included:**
 * new displays
 * manual or automatic gearbox
 * driving physics minor improvements
