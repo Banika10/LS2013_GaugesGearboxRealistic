@@ -18,8 +18,8 @@
 * more realistic driving uphill
 * accelerate motor speed during jump
 
-**Videos**
-* http://www.youtube.com/playlist?list=PLee3_tDX9Kpn6lieXnbTQndrt5rTb6HtM
+[Videos](http://www.youtube.com/watch?v=K_NVHesPwRo&list=PLee3_tDX9Kpn6lieXnbTQndrt5rTb6HtM&index=1)
+
 
 ## Required Mods
 
