@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<lang name="en" fullname="English">
+	<input>
+		<startEngine>Enable/disable the engine</startEngine>
+	</input>
+</lang>

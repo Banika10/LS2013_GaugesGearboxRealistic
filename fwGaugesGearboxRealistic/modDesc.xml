@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="9">
+    <author>Miko | rafal@mikoweb.pl</author>
+    <version>1.2</version>
+	<title>
+		<pl>Gauges Gearbox &amp; Realistic</pl>
+		<en>Gauges Gearbox &amp; Realistic</en> 
+		<de>Gauges Gearbox &amp; Realistic</de>
+	</title> 
+	<description> 
+		<pl>lorem ipsum</pl>
+		<en>lorem ipsum</en> 
+		<de>lorem ipsum</de>
+	</description>
+	
+	<iconFilename>images/store.dds</iconFilename> 
+	<multiplayer supported="true"/>
+	
+	<extraSourceFiles>
+		<sourceFile filename="Loader.lua" />
+    </extraSourceFiles>
+</modDesc>
