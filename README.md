@@ -26,8 +26,7 @@
 ## Installation
 
 1. First install Framework By Miko.
-2. Download the zip package and unpack into `Documents\My Games\FarmingSimulator2013` directory.
-2. Run file: `Documents\My Games\FarmingSimulator2013\mods-fw\Gauges\enable.bat`
+2. Copy `fwGaugesGearboxRealistic.zip` into `Documents\My Games\FarmingSimulator2013\mods` directory.
 
 ## About
 
