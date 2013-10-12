@@ -59,6 +59,8 @@ function _:loadSpec(view)
 					vs.Gauges_View_gearbox = view;
 					--Przekazanie referencji modelu do Steerable.Gauges_Model_gearbox
 					vs.Gauges_Model_gearbox = self;
+					--Przekazanie referencji eventów do Steerable.Gauges_events
+					vs.Gauges_events = Mods:getRegistry(self.ModelPrefix, 'events');
 				end;
 			end;
 		end;

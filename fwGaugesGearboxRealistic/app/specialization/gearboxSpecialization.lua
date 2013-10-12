@@ -21,6 +21,7 @@ function gearboxSpecialization:load(xmlFile)
 	self.gearbox = {} -- kontener skrzyni biegów
 	self.gearbox.view 	= Steerable.Gauges_View_gearbox; -- referencja do widoku wyœwietlacza biegów
 	self.gearbox.model 	= Steerable.Gauges_Model_gearbox; -- referencja modelu skrzni biegów
+	self.gearboxMultiplayerSynchro = SpecializationUtil.callSpecializationsFunction("gearboxMultiplayerSynchro");
 	
 	-- ustawienia skrzyni biegów
 	self.gearbox.options = self.gearbox.model:getGearboxOptions();
@@ -100,7 +101,7 @@ function gearboxSpecialization:updateTick(dt)
 	end;
 end;
 
-function gearboxSpecialization:update(dt)
+function gearboxSpecialization:update(dt)	
 	if self.isMotorStarted and self.isEntered then
 		-- Szybsze obroty gdy pojazd oderwie siê od ziemi
 		self.gearbox.other.wheelsNotGroundContactNum = 0;
@@ -136,14 +137,17 @@ function gearboxSpecialization:update(dt)
 		--renderText(0.2, 0.2, 0.04, tostring(self.lastAcceleration));
 		--renderText(0.2, 0.2, 0.04, tostring(self.wheels[1].axleSpeed));		
 		--renderText(0.2, 0.2, 0.04, tostring(self.gearbox.other.deceleration));	
-		renderText(0.2, 0.7, 0.03, 'Bieg: '..tostring(self.gearbox.currentGear));
-		renderText(0.2, 0.6, 0.03, 'Rodzaj: '..tostring(self.gearbox.gearboxMode));
-		renderText(0.2, 0.5, 0.03, 'Max: '..tostring(self.gearbox.maxGear));
-		renderText(0.2, 0.4, 0.03, 'Tryb: '..tostring(self.gearbox.driveMode));
+		--renderText(0.2, 0.7, 0.03, 'Bieg: '..tostring(self.gearbox.currentGear));
+		--renderText(0.2, 0.6, 0.03, 'Rodzaj: '..tostring(self.gearbox.gearboxMode));
+		--renderText(0.2, 0.5, 0.03, 'Max: '..tostring(self.gearbox.maxGear));
+		--renderText(0.2, 0.4, 0.03, 'Tryb: '..tostring(self.gearbox.driveMode));
 	end;
 	
 	self.reverseDriveSoundEnabled = true;
 	self.gearbox.other.lastAccelerationInDraw = self.lastAcceleration;
+	
+	-- synchronizacja danych z multiplayer
+	Steerable.Gauges_events.gearboxSpecializationEvent.sendEvent(self);
 end;
 
 function gearboxSpecialization:draw()
@@ -424,4 +428,9 @@ function gearboxSpecialization.gearboxPhysics(self)
 		self.motor.transmissionEfficiency   = self.gearbox.originalValues.motor.transmissionEfficiency;
 		self.downForce 						= self.gearbox.originalValues.downForce;
 	end;
+end;
+
+-- synchronizacja z multiplayerem
+function gearboxSpecialization:gearboxMultiplayerSynchro(vehicle)
+	self = vehicle;
 end;

@@ -22,7 +22,6 @@ function _:load()
 	-- Model
 	self.modelGearbox = self:setModel('gearbox');
 	Mods:setRegistry(self.ControllerPrefix, 'Model_gearbox', self.modelGearbox);
-	--self:setModel('manualIgnition');
 	-- View
 	self.view = self:setView();	
 	self.modelGearbox:loadSpec(self.view);

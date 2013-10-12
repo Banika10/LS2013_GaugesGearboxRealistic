@@ -13,7 +13,15 @@
 if Utils ~= nil and Utils.frameworkByMiko ~= nil then 
 	local modName = 'fwGaugesGearboxRealistic';
 	if Utils.frameworkByMiko.modsModule:get(modName) == nil then
-		table.insert(Utils.frameworkByMiko.modsCapture, {name = modName, enable = true});
+		local events = {
+			gearboxSpecializationEvent 	= gearboxSpecializationEvent
+		} -- przekazane eventy
+		
+		table.insert(Utils.frameworkByMiko.modsCapture, {
+			name 	= modName, 
+			enable 	= true, 
+			events	= events
+		}); -- dodanie na listę przechwytywania
 		print('Mod '..modName..' send to capture');
 	end;
 end;

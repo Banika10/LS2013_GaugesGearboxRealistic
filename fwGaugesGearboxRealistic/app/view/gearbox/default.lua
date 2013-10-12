@@ -101,10 +101,6 @@ end;
 
 function _:update(dt)
 	if g_currentMission.controlledVehicle ~= nil then 
-		g_currentMission:addExtraPrintText(self.i18n:get('input.startEngine')..': '..self.input:getActionKeyName('input.startEngine'));
-	end;
-
-	if g_currentMission.controlledVehicle ~= nil then 
 		-- resetowanie stanu wyświetlacza
 		self:loadGearbox(g_currentMission.controlledVehicle.gearbox);
 		self:hideGears();

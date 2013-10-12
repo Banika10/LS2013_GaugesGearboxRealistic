@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <input>
-	<startEngine key="KEY_f11" button="PS2_PAD_SELECT" />
 	<upGear key="KEY_equals" button="PS2_PAD_R1" />
 	<downGear key="KEY_minus" button="PS2_PAD_L1" />
 	<gearN key="KEY_lshift KEY_n" button="" />
