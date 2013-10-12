@@ -63,6 +63,9 @@ function gearboxSpecialization:load(xmlFile)
 	self.gearbox.originalValues.motor.backwardGearRatio				= self.motor.backwardGearRatio;
 	self.gearbox.originalValues.motor.transmissionEfficiency		= self.motor.transmissionEfficiency;
 	self.gearbox.originalValues.downForce							= self.downForce;
+	
+	-- synchronizacja danych z multiplayer
+	Steerable.Gauges_events.gearboxSpecializationEvent.sendEvent(self);	
 end;
 
 function gearboxSpecialization:readStream(streamId, connection)
@@ -145,9 +148,6 @@ function gearboxSpecialization:update(dt)
 	
 	self.reverseDriveSoundEnabled = true;
 	self.gearbox.other.lastAccelerationInDraw = self.lastAcceleration;
-	
-	-- synchronizacja danych z multiplayer
-	Steerable.Gauges_events.gearboxSpecializationEvent.sendEvent(self);
 end;
 
 function gearboxSpecialization:draw()
