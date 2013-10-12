@@ -432,5 +432,4 @@ end;
 
 -- synchronizacja z multiplayerem
 function gearboxSpecialization:gearboxMultiplayerSynchro(vehicle)
-	self = vehicle;
 end;

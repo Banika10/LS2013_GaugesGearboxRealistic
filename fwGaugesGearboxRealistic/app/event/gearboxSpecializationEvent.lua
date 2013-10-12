@@ -42,7 +42,7 @@ function gearboxSpecializationEvent:run(connection)
 	if not connection:getIsServer() then
 		g_server:broadcastEvent(gearboxSpecializationEvent:new(self.vehicle), nil, connection, self.object);
 	end;
-	self.vehicle:gearboxMultiplayerSynchro(vehicle);
+	--self.vehicle:gearboxMultiplayerSynchro(vehicle);
 end;
 
 function gearboxSpecializationEvent.sendEvent(vehicle, noEventSend)
